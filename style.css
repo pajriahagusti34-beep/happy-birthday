@@ -8,14 +8,10 @@
     box-sizing:border-box;
     font-family:'Poppins',sans-serif;
 }
-
-body{
+    body{
     background: linear-gradient(135deg,#ff9ecf,#d7b3ff,#8ec5fc);
     height:100vh;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    overflow:hidden;
 }
 
 /* Kotak utama */
@@ -111,4 +107,12 @@ button:hover{
 .envelope-page h2{
     margin-top:20px;
     color:white;
+}
+
+.welcome,
+.envelope-page{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
 }
