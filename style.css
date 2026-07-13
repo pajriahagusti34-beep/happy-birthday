@@ -92,3 +92,23 @@ button:hover{
     background:#ff2d89;
 
 }
+
+.envelope-page{
+    display:none;
+    text-align:center;
+}
+
+.envelope{
+    font-size:120px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.envelope:hover{
+    transform:scale(1.1);
+}
+
+.envelope-page h2{
+    margin-top:20px;
+    color:white;
+}
