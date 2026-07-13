@@ -1,0 +1,94 @@
+/* Import font dari Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+/* Mengatur seluruh halaman */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#ff9ecf,#d7b3ff,#8ec5fc);
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Kotak utama */
+.welcome{
+
+    background:rgba(255,255,255,0.15);
+
+    backdrop-filter: blur(15px);
+
+    padding:50px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    width:500px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
+
+}
+
+/* Judul */
+
+h1{
+
+    font-size:55px;
+
+    color:white;
+
+    margin-bottom:20px;
+
+}
+
+/* Tulisan */
+
+p{
+
+    color:white;
+
+    font-size:22px;
+
+    margin-bottom:35px;
+
+}
+
+/* Tombol */
+
+button{
+
+    background:#ff4fa0;
+
+    color:white;
+
+    border:none;
+
+    padding:18px 45px;
+
+    font-size:22px;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+/* Saat mouse diarahkan */
+
+button:hover{
+
+    transform:scale(1.08);
+
+    background:#ff2d89;
+
+}
