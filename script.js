@@ -17,7 +17,7 @@ tombol.addEventListener("click", function(){
 
 envelope.addEventListener("click", function(){
 
-    console.log("Amplop diklik"); // buat cek
+    console.log("Amplop diklik");
 
     gallery.style.display = "flex";
 
