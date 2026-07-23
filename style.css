@@ -120,3 +120,12 @@ button:hover{
 .hidden {
     display: none;
 }
+
+.gallery {
+    display: none;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 200px;
+}
